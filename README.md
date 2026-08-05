@@ -1,44 +1,40 @@
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=CrytoBot&fontSize=60&fontAlignY=35)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=EuroRWA&fontSize=55&fontAlignY=35&desc=Real%20data%20infrastructure%20for%20tokenized%20finance&descAlignY=55)
 
 ## 👨‍💻 About Me
 
-Software engineer building **distributed systems** and **trading infrastructure** in Rust & Python. I design low-latency data pipelines, real-time analytics engines, and automated decision systems.
+I build **real data infrastructure for tokenized finance** — dashboards, on-chain verification, and automated research pipelines. My focus is the European tokenized money market fund (MMF) market, where good public data is rare.
 
-- 🔭 Building **Ninja Quant** — real-time perpetual futures intelligence engine for Hyperliquid DEX
-- 🌱 Deep-diving into **zero-copy serialization**, **lock-free data structures**, and **event sourcing**
-- ⚡ Production experience with **high-throughput async systems**, **WebSocket streaming**, and **ML-driven signal generation**
+- 🔭 **EuroRWA** — live dashboard tracking 15 EU + US tokenized MMFs with real web data
+- ⛓️ **On-chain attestation** — every daily snapshot is hashed, signed, and published to a smart contract on Sepolia
+- 🛠️ Full pipeline: data fetching → SQLite history → API → React dashboard → auto content generation
 
 ## 🛠 Tech Stack
 
 ```
-Rust  ·  Python  ·  TypeScript
-Tokio  ·  PyO3  ·  async/await
-WebSocket  ·  REST API  ·  gRPC
-Redis  ·  PostgreSQL  ·  InfluxDB
-Docker  ·  Linux  ·  CI/CD
+TypeScript  ·  Bun  ·  React  ·  Vite
+SQLite  ·  Drizzle  ·  Effect
+Solidity  ·  Ethereum (Sepolia)  ·  viem
+Chrome headless (data-viz)  ·  Vercel
 ```
 
-## 📌 Featured Projects
+## 📌 Featured Project
 
-### ⚡ Ninja Quant
-Real-time perpetual futures analytics and AI-powered signal generation for Hyperliquid DEX. Scans markets every 15s across 15+ signal layers. Built in Rust.
+### 🇪🇺 EuroRWA — EU Tokenized Money Market Fund Dashboard
 
-**[→ Repository](https://github.com/crytobot459/ninja-quant)**
+Live dashboard tracking **15 European and US tokenized money market funds** with real data ($10B+ tracked), refreshed every 12 hours.
 
-### 📈 ML Trading Strategy
-End-to-end ML pipeline for BTC/USDT with LightGBM, walk-forward validation, and event-driven backtesting. Optuna hyperparameter tuning with stratified K-fold cross-validation.
+**What makes it different — every snapshot is verifiable:**
 
-**[→ Repository](https://github.com/crytobot459/ML-Trading-Strategy-BTC)**
+1. **Hash** the full 15-fund payload (keccak-256)
+2. **Sign** with the agent wallet
+3. **Publish** to a smart contract on Sepolia — public, permanent, tamper-proof
 
-### 🤖 Trading Bot Ecosystem
-Production-grade automated trading ecosystem built on Freqtrade with multi-timeframe market scanning, dynamic risk management (DEFCON system), and autonomous trade plan generation.
+Anyone can re-hash the data and verify the on-chain signature. No "trust me bro" dashboards.
 
-**[→ Repository](https://github.com/crytobot459/TradingBot-Public)**
+- 🔴 **Live:** https://rwa-dashboard-gamma.vercel.app
+- 📦 **Source:** https://github.com/crytobot459/eurorwa
+- 🧪 **Attestation contract (Sepolia):** `0xcb03f6390ef54aaa1a39ef9f71448a23ccca3b7f`
 
 ## 📊 GitHub Stats
 
 ![CrytoBot's GitHub stats](https://github-readme-stats.vercel.app/api?username=crytobot459&show_icons=true&theme=dark)
-
-## 📫 Contact
-
-- **Email:** hiring@draft.dev *(preferred for writing inquiries)*
