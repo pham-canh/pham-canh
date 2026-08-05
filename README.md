@@ -33,7 +33,7 @@ Anyone can re-hash the data and verify the on-chain signature. No "trust me bro"
 
 - 🔴 **Live:** https://rwa-dashboard-gamma.vercel.app
 - 📦 **Source:** https://github.com/crytobot459/eurorwa
-- 🧪 **Attestation contract (Sepolia):** `0xcb03f6390ef54aaa1a39ef9f71448a23ccca3b7f`
+- 🧪 **Attestation contract (Sepolia):** `0xd482a715cdef4073593f4a3208abd328f6d71725`
 
 ## 📊 GitHub Stats
 
