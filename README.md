@@ -1,39 +1,20 @@
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=EuroRWA&fontSize=55&fontAlignY=35&desc=Real%20data%20infrastructure%20for%20tokenized%20finance&descAlignY=55)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=CrytoBot&fontSize=55&fontAlignY=35&desc=Software%20engineer%20·%20data%20infrastructure%20·%20automation&descAlignY=55)
 
 ## 👨‍💻 About Me
 
-I build **real data infrastructure for tokenized finance** — dashboards, on-chain verification, and automated research pipelines. My focus is the European tokenized money market fund (MMF) market, where good public data is rare.
+I'm a software engineer focused on **data infrastructure and automation** — building reliable data pipelines, API services, and developer tooling. I care about verifiable, reproducible workflows and clean end-to-end systems.
 
-- 🔭 **EuroRWA** — live dashboard tracking 15 EU + US tokenized MMFs with real web data
-- ⛓️ **On-chain attestation** — every daily snapshot is hashed, signed, and published to a smart contract on Sepolia
-- 🛠️ Full pipeline: data fetching → SQLite history → API → React dashboard → auto content generation
+- 🔭 Building end-to-end pipelines: fetch → store → API → automation
+- 🛠️ Comfortable across the full stack: TypeScript, Bun, SQLite, React, and headless browsers for data extraction
+- 🤖 Interested in verifiable data and deterministic, auditable processes
 
 ## 🛠 Tech Stack
 
 ```
 TypeScript  ·  Bun  ·  React  ·  Vite
 SQLite  ·  Drizzle  ·  Effect
-Solidity  ·  Ethereum (Sepolia)  ·  viem
-Chrome headless (data-viz)  ·  Vercel
+Viem (EVM tooling)  ·  Chrome headless (data extraction)
 ```
-
-## 📌 Featured Project
-
-### 🇪🇺 EuroRWA — EU Tokenized Money Market Fund Dashboard
-
-Live dashboard tracking **15 European and US tokenized money market funds** with real data ($10B+ tracked), refreshed every 12 hours.
-
-**What makes it different — every snapshot is verifiable:**
-
-1. **Hash** the full 15-fund payload (keccak-256)
-2. **Sign** with the agent wallet
-3. **Publish** to a smart contract on Sepolia — public, permanent, tamper-proof
-
-Anyone can re-hash the data and verify the on-chain signature. No "trust me bro" dashboards.
-
-- 🔴 **Live:** https://rwa-dashboard-gamma.vercel.app
-- 📦 **Source:** https://github.com/crytobot459/eurorwa
-- 🧪 **Attestation contract (Sepolia):** `0xd482a715cdef4073593f4a3208abd328f6d71725`
 
 ## 📊 GitHub Stats
 
