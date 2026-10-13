@@ -1,4 +1,6 @@
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=CrytoBot&fontSize=55&fontAlignY=35&desc=Software%20engineer%20·%20data%20infrastructure%20·%20automation&descAlignY=55)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Pham%20Canh&fontSize=55&fontAlignY=35&desc=Software%20engineer%20·%20Rust%20%26%20Python%20·%20Distributed%20systems&descAlignY=55)
+
+# Phạm Cảnh
 
 ## 👨‍💻 About Me
 
@@ -18,4 +20,4 @@ Viem (EVM tooling)  ·  Chrome headless (data extraction)
 
 ## 📊 GitHub Stats
 
-![CrytoBot's GitHub stats](https://github-readme-stats.vercel.app/api?username=crytobot459&show_icons=true&theme=dark)
+![Pham Canh's GitHub stats](https://github-readme-stats.vercel.app/api?username=pham-canh&show_icons=true&theme=dark)
