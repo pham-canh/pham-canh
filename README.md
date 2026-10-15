@@ -29,19 +29,32 @@ STT/TTS: AssemblyAI · Edge TTS
 **[opencode-harness-kit](https://github.com/pham-canh/space-harness)**
 Model-agnostic harness kit for coding agents — capability profiles, context
 pruning, and **measured baselines** so you can show a change made the model faster
-instead of asserting it. MIT licensed, 9 test suites.
+instead of asserting it. MIT licensed, 131 tests across 9 suites, CI on every push.
+Published to npm as [`opencode-harness-kit`](https://www.npmjs.com/package/opencode-harness-kit).
+
+**[assemblyai-voice-agent](https://github.com/pham-canh/assemblyai-voice-agent)**
+Voice agent for clinic booking — real-time AssemblyAI STT into Gemini NLU, with
+booking gated behind a spoken YES. Latency is reported **per stage in ms** and the
+demo is live, so the number you read is the number the pipeline actually hit.
 
 **[pocketful-factory](https://github.com/pham-canh/pocketful-factory)**
 Three coding-agent seats in one room build a wallet service, with an independent
 evaluator that **re-derives every figure from the evidence and fails if a document
 disagrees**. All 121 agent messages are in `room.json` — every tool call, every
-verdict, including the last one that fixed a wrong-revision error.
+verdict, including the last one that fixed a wrong-revision error. The
+[pocketful-demo](https://github.com/pham-canh/pocketful-demo) repo holds the
+unmodified wallet service the factory produced, so you can hit it over HTTP.
 
 **[voicecare-scheduler](https://github.com/pham-canh/voicecare-scheduler)**
 Voice booking for elderly clinic patients — speak to book, nothing is booked
 without a spoken confirmation. NLU on NVIDIA Nemotron via Nebius Token Factory,
 with the active provider reported in the UI. 28 tests, a one-command demo
 recorder, and a latency claim that matches what the app actually prints.
+
+**[dark-factory](https://github.com/pham-canh/dark-factory)**
+A mini software factory built for the BAND Dark Factory track: spec to code to an
+independent evaluator, with **5/5 holdout scenarios** passed and a live Streamlit
+demo. The holdout set is what stops a factory from grading its own homework.
 
 **[failed-strategies](https://github.com/pham-canh/failed-strategies)**
 Backtested trading strategies that lost money, kept with post-mortems. Published
@@ -55,5 +68,5 @@ bug I want to hear about.
 
 ---
 
-Reach me on [Upwork](https://www.upwork.com/) — open to contract work on agent
-systems, LLM integration, and automation.
+Open to contract work on agent systems, LLM integration, and automation.
+Reach me on Upwork, or open an issue on any repo above.
