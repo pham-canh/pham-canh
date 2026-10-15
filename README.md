@@ -36,6 +36,7 @@ Published to npm as [`opencode-harness-kit`](https://www.npmjs.com/package/openc
 Voice agent for clinic booking — real-time AssemblyAI STT into Gemini NLU, with
 booking gated behind a spoken YES. Latency is reported **per stage in ms** and the
 demo is live, so the number you read is the number the pipeline actually hit.
+*Entry for the AssemblyAI Voice Agent Hackathon, lablab.ai — completed.*
 
 **[pocketful-factory](https://github.com/pham-canh/pocketful-factory)**
 Three coding-agent seats in one room build a wallet service, with an independent
@@ -50,6 +51,7 @@ Voice booking for elderly clinic patients — speak to book, nothing is booked
 without a spoken confirmation. NLU on NVIDIA Nemotron via Nebius Token Factory,
 with the active provider reported in the UI. 28 tests, a one-command demo
 recorder, and a latency claim that matches what the app actually prints.
+*Entry for the Nebius x NVIDIA Global AI Hackathon on Devpost — in progress.*
 
 **[dark-factory](https://github.com/pham-canh/dark-factory)**
 A mini software factory built for the BAND Dark Factory track: spec to code to an
