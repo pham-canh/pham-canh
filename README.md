@@ -18,7 +18,7 @@ and the repo disagree.
 
 ```
 Python  ·  TypeScript / JavaScript  ·  Bash
-Node  ·  Bun  ·  Docker  ·  GitHub Actions
+Node  ·  Docker  ·  GitHub Actions
 PostgreSQL  ·  Redis  ·  AWS  ·  OpenTelemetry
 LLM providers: NVIDIA Nemotron (Nebius) · Gemini · OpenAI
 STT/TTS: AssemblyAI · Edge TTS
