@@ -34,8 +34,8 @@ Published to npm as [`opencode-harness-kit`](https://www.npmjs.com/package/openc
 
 **[assemblyai-voice-agent](https://github.com/pham-canh/assemblyai-voice-agent)**
 Voice agent for clinic booking — real-time AssemblyAI STT into Gemini NLU, with
-booking gated behind a spoken YES. Latency is reported **per stage in ms** and the
-demo is live, so the number you read is the number the pipeline actually hit.
+booking gated behind a spoken YES. Latency is reported **per stage in ms**; there
+is no hosted demo URL, so run it locally to reproduce the numbers.
 *Entry for the AssemblyAI Voice Agent Hackathon, lablab.ai — completed.*
 
 **[pocketful-factory](https://github.com/pham-canh/pocketful-factory)**
