@@ -45,6 +45,7 @@ disagrees**. All 121 agent messages are in `room.json` — every tool call, ever
 verdict, including the last one that fixed a wrong-revision error. The wallet
 service the factory produced lives in the `stage-4/` folder of this repo, so you
 can hit it over HTTP.
+▶ [9s capture](https://github.com/pham-canh/pocketful-factory/blob/main/docs/demo.mp4) — an overdraft refused with the balance unchanged, then the same idempotency key fired twice answering `201` and then `200`.
 
 **[voicecare-scheduler](https://github.com/pham-canh/voicecare-scheduler)**
 Voice booking for elderly clinic patients — speak to book, nothing is booked
@@ -52,11 +53,13 @@ without a spoken confirmation. NLU on NVIDIA Nemotron via Nebius Token Factory,
 with the active provider reported in the UI. 28 tests, a one-command demo
 recorder, and a latency claim that matches what the app actually prints.
 *Entry for the Nebius x NVIDIA Global AI Hackathon on Devpost — in progress.*
+▶ [24s capture](https://github.com/pham-canh/voicecare-scheduler/blob/main/docs/demo.mp4) — the patient speaks, the agent reads back the specialty and time, and the booking only lands after the spoken YES.
 
 **[dark-factory](https://github.com/pham-canh/dark-factory)**
 A mini software factory built for the BAND Dark Factory track: spec to code to an
-independent evaluator, with **5/5 holdout scenarios** passed and a live Streamlit
-demo. The holdout set is what stops a factory from grading its own homework.
+independent evaluator, with **5/5 holdout scenarios** passed. The holdout set is
+what stops a factory from grading its own homework.
+▶ [5s capture](https://github.com/pham-canh/dark-factory/blob/main/docs/demo.mp4) — one click of *Run factory*, the evaluator answers `5/5 passed (rate 1.0)`. The app needs no API keys, so it runs from a clean checkout.
 
 **[failed-strategies](https://github.com/pham-canh/failed-strategies)**
 Backtested trading strategies that lost money, kept with post-mortems. Published
