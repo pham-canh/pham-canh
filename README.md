@@ -71,4 +71,9 @@ bug I want to hear about.
 ---
 
 Open to contract work on agent systems, LLM integration, and automation.
-Reach me on Upwork, or open an issue on any repo above.
+
+- LinkedIn — <https://www.linkedin.com/in/canh-pham-bot-dev>
+- GitHub — <https://github.com/pham-canh>
+- Upwork — <https://www.upwork.com/>
+
+Or open an issue on any repo above.
