@@ -62,6 +62,18 @@ demo. The holdout set is what stops a factory from grading its own homework.
 Backtested trading strategies that lost money, kept with post-mortems. Published
 on purpose — knowing why an approach failed is more useful than hiding it.
 
+## Research
+
+Separate from the work above: **[eurorwa](https://github.com/pham-canh/eurorwa)** is a
+**research project**, not a product. It studies how public data for tokenized
+money-market funds can be collected and then **independently verified** — a daily
+snapshot is hashed (keccak-256), signed with a dedicated key, and the signature
+published on-chain, so anyone can re-hash the data and check it against the
+attestation. MIT licensed, no paywall, no API key, no hosted service.
+
+Listing it apart is the point: the agent work above is things I built to ship, this
+is a question I am still working on.
+
 ## What I care about
 
 Claim it, then make it checkable. A fallback that silently downgrades the system
