@@ -42,9 +42,9 @@ is no hosted demo URL, so run it locally to reproduce the numbers.
 Three coding-agent seats in one room build a wallet service, with an independent
 evaluator that **re-derives every figure from the evidence and fails if a document
 disagrees**. All 121 agent messages are in `room.json` — every tool call, every
-verdict, including the last one that fixed a wrong-revision error. The
-[pocketful-demo](https://github.com/pham-canh/pocketful-demo) repo holds the
-unmodified wallet service the factory produced, so you can hit it over HTTP.
+verdict, including the last one that fixed a wrong-revision error. The wallet
+service the factory produced lives in the `stage-4/` folder of this repo, so you
+can hit it over HTTP.
 
 **[voicecare-scheduler](https://github.com/pham-canh/voicecare-scheduler)**
 Voice booking for elderly clinic patients — speak to book, nothing is booked
