@@ -1,18 +1,21 @@
 # Phạm Cảnh
 
-**AI agent systems that prove their own work.** I build agents where every claim is
-re-derivable from the repo — not screenshots.
+**Software Engineer | AI Agents & Automation**
 
-I'm a software engineer working on **AI agents, automation, and the verification
-around them**. Most agent demos assert that something worked. The pattern I keep
-coming back to is making the assertion checkable: an evaluator seat that re-derives
-every claim from the artefacts, and a CI gate that fails the build when a claim
-and the repo disagree.
+I work on AI agents, automation, and backend systems.
 
-- 🔭 **Verifiable agent pipelines** — claim re-derivation, independent evaluation, measurable baselines
-- 🛠 **Python-first**, with TypeScript/JavaScript where the interface needs it
-- 🧪 **Tested and gated** — tests, CI, and honest fallbacks that report which provider actually answered
-- 🌏 Based in Ho Chi Minh City, Vietnam · open to remote
+I'm interested in building AI systems that can handle tasks, work together, and check their own results.
+
+Recently, I've been working on multi-agent workflows with a focus on:
+
+- Building agents with separate roles and responsibilities.
+- Automating tasks from start to finish.
+- Checking results against actual files and code.
+- Handling errors, retries, and task recovery.
+
+I'm always learning and building new things.
+
+Based in Ho Chi Minh City, Vietnam. Open to remote roles.
 
 ## Selected work
 
