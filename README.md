@@ -48,13 +48,14 @@ anyone re-hash and check the signer with no credentials.
 |---|---|---|
 | BAND Dark Factory — WeAreDevelopers, lablab.ai (2026) | [pocketful-factory](https://github.com/pham-canh/pocketful-factory) | multi-agent factory, independent evaluation, 4/4 stages, offline-built service |
 | Nebius × NVIDIA Global AI Hackathon — Devpost (Oct 2026) | [voicecare-scheduler](https://github.com/pham-canh/voicecare-scheduler) | voice agent with a hard consent gate; Nemotron NLU with labelled fallbacks |
-| AssemblyAI Voice Agent Hackathon — lablab.ai (2026) | [assemblyai-voice-agent](https://github.com/pham-canh/assemblyai-voice-agent) | realtime STT → NLU booking loop; no booking without a spoken YES |
-| Vultr Agent Rush (2026) | [consult-homeopathic](https://github.com/pham-canh/consult-homeopathic) | patient intake with a human doctor in the loop |
+| AssemblyAI Voice Agent Hackathon — lablab.ai (2026) | [assemblyai-voice-agent](https://github.com/pham-canh/assemblyai-voice-agent) *(archived)* | realtime STT → NLU booking loop; no booking without a spoken YES |
+| Vultr Agent Rush (2026) | [consult-homeopathic](https://github.com/pham-canh/consult-homeopathic) *(archived)* | patient intake with a human doctor in the loop |
 
-Earlier entries kept for history, not pinned:
+Archived, not pinned: all other hackathon builds are read-only —
 [dark-factory](https://github.com/pham-canh/dark-factory) (superseded by `pocketful-factory`),
 [blast-radius-zero](https://github.com/pham-canh/blast-radius-zero),
 [amd-web-retrieval-agent](https://github.com/pham-canh/amd-web-retrieval-agent).
+Archived entries stay public so their links keep working; the four pinned repos are the current portfolio.
 
 ## Research
 
