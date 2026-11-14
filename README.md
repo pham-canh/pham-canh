@@ -15,7 +15,7 @@ Recently, I've been working on multi-agent workflows with a focus on:
 
 I'm always learning and building new things.
 
-Current build: **Care Relay**, two agentic websites with a per-origin consent gate, for the Open Agentic Web Challenge.
+Current build: **Trip Relay**, two travel agentic websites with a per-origin consent gate, for the Open Agentic Web Challenge.
 
 Based in Ho Chi Minh City, Vietnam. Open to remote roles.
 
@@ -50,7 +50,7 @@ anyone re-hash and check the signer with no credentials.
 |---|---|---|
 | BAND Dark Factory — WeAreDevelopers, lablab.ai (2026) | [pocketful-factory](https://github.com/pham-canh/pocketful-factory) | multi-agent factory, independent evaluation, 4/4 stages, offline-built service |
 | Nebius × NVIDIA Global AI Hackathon — Devpost (Oct 2026) | [voicecare-scheduler](https://github.com/pham-canh/voicecare-scheduler) | voice agent with a hard consent gate; Nemotron NLU with labelled fallbacks |
-| Open Agentic Web Challenge — Cognizant × Mozilla, Devpost (2026-27) | [care-relay](https://github.com/pham-canh/care-relay) | two browser agent networks, per-origin consent before contact, closed peer policy |
+| Open Agentic Web Challenge — Cognizant × Mozilla, Devpost (2026-27) | [trip-relay](https://github.com/pham-canh/trip-relay) | airline and hotel browser agents, per-origin consent before contact, closed peer policy |
 | AssemblyAI Voice Agent Hackathon — lablab.ai (2026) | [assemblyai-voice-agent](https://github.com/pham-canh/assemblyai-voice-agent) *(archived)* | realtime STT → NLU booking loop; no booking without a spoken YES |
 | Vultr Agent Rush (2026) | [consult-homeopathic](https://github.com/pham-canh/consult-homeopathic) *(archived)* | patient intake with a human doctor in the loop |
 
